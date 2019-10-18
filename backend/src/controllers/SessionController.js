@@ -10,20 +10,19 @@ const User = require('../models/User');
 
 module.exports = {
 
-    //Função assincrona 
-    async store(req, res) {
+  //Função assincrona 
+  async store(req, res) {
+    //Buscar e-mail de dentro de req.body
+    const { email } = req.body;
 
-        //Buscar e-mail de dentro de req.body
-        const { email } = req.body;
+     //Procurando um usuário com o mesmo email
+    let user = await User.findOne({ email });
 
-        //Procurando um usuário com o mesmo email
-        let user = await User.findOne({ email });
-
-        if (!user) {
-            //Await só deixa passar quando finalizar o cadastro no banco
-            user = await User.create({ email });
-        }
-
-        return res.json({ user })
+    if (!user) {
+      //Await só deixa passar quando finalizar o cadastro no banco
+      user = await User.create({ email });
     }
-}
+
+    return res.json(user);
+  }
+};
