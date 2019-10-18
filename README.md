@@ -2,15 +2,15 @@
    Semana omnistack 9 - AirCnC
 </h1>
 
-<h5 align="center">
+<h4 align="center">
 Projeto desenvolvido para fins de estudos oriundo do curso ministrado pela Rocketseat na semana omnistack 9.0.
-</h5>
+</h4>
 
-  <h4 align="center">
+ <h4 align="center">
   📣  Repositório original: [semana-omnistack-9](https://github.com/Rocketseat/semana-omnistack-9 "semana-omnistack-9")
 </h4>
 
-##Tecnologias
+## Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## O que é o projeto:
 Diego  Fernandes - CTO Rocketseat:
-> :fa-quote-left:  O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
+> O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
 
 ## Pacotes utilizados:
 #####Backend
@@ -28,7 +28,7 @@ Diego  Fernandes - CTO Rocketseat:
 - [multer](https://www.npmjs.com/package/multer "multer")
 - [socket.io](https://www.npmjs.com/package/socket.io "socket.io")
 
-#####Frontend
+##### Frontend
 - [axios](https://www.npmjs.com/package/axios "axios")
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom "react-router-dom")
 - [socket.io-client](https://www.npmjs.com/package/socket.io-client "socket.io-client")
